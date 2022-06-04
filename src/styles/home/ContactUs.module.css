@@ -1,0 +1,22 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactInfo{
+    width: 40%;
+    padding-left: 7%;
+}
+
+.businessImage {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.businessImage img {
+    width: 80%;
+    border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.ourTeam{
+    text-align: center;
+}
+
+@media only screen and (max-width: 470px) {
+    .ourTeam .people{
+        display: flex;
+        flex-direction: column;
+        margin: auto 5%;
+    }
+    .ourTeam p{
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (min-width: 470px) {
+    .ourTeam .people{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 3%;
+    }
+}
+
+.ourTeam img{
+    border-radius: 50%;
+    max-width: 90%;
+}
+
+.person{
+    padding: 2% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

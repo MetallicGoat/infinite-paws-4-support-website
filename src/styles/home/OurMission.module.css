@@ -1,0 +1,53 @@
+@media only screen and (max-width: 660px) {
+    .missionStatement{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .missionImage {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .missionImage img {
+        width: 90%;
+        border-radius: 15px;
+        margin: 5% 0;
+    }
+
+    .missionText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 660px) {
+    .missionStatement{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .missionImage {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .missionImage img {
+        width: 70%;
+        border-radius: 15px;
+    }
+
+    .missionText{
+        width: 40%;
+        padding-right: 7%;
+    }
+}

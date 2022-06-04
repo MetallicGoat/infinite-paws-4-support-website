@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Quicksand";
+    background-size: 3.3333333%;
+    background-image: url("../images/Backround Paw v1.png");
+    background-repeat: repeat;
+    background-color: #fdf6f6;
+}
+
+.page {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content > * {
+    margin: 10px auto;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #d9b3b8;
+    border-radius: 15px;
+}
